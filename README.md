@@ -1,10 +1,12 @@
 # vue-icon-font
 
-> IconFont plugin for Vuejs
+![Vue 2.x](https://img.shields.io/badge/vue-2.x-green.svg "Vue 2 Compatible")
+
+> A [iconfont](http://iconfont.cn/) plugin for Vuejs 
 
 ## Screenshots
 
-![image](https://github.com/ganl/mdAssets/raw/master/img/vue-icon-font_20170913-223111%402x.png)
+![screenshot](https://github.com/ganl/mdAssets/raw/master/img/vue-icon-font_20170913-223111%402x.png)
 
 ## Installation
 
