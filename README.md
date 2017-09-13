@@ -65,4 +65,5 @@ Vue.use(VueIconFont)
 ```
 
 Simple demo [here](https://github.com/ganl/vue-icon-font/tree/master/demo)
-![image]https://github.com/ganl/mdAssets/blob/master/img/vue-icon-font_20170913-223111%402x.png
+
+![image](https://github.com/ganl/mdAssets/raw/master/img/vue-icon-font_20170913-223111%402x.png)

@@ -1,7 +1,7 @@
 {
   "name": "vue-icon-font",
   "description": "IconFont plugin for Vuejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "ganl <austgl@qq.com>",
   "main": "dist/vue-iconfont.js",
   "scripts": {
