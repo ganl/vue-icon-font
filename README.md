@@ -57,4 +57,4 @@ import './iconfont.js';
 <icon name="password"></icon>
 ```
 
-Simple demo [here](https://github.com/ganl/vue-icon-font/demo/)
+Simple demo [here](https://github.com/ganl/vue-icon-font/tree/master/demo)
