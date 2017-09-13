@@ -51,6 +51,7 @@ import './iconfont.js';
 ``` js
 import Vue from 'vue'
 import VueIconFont from 'vue-icon-font'
+import '@/assets/iconfont/iconfont.css'
 import '@/assets/iconfont/iconfont.js'
 Vue.use(VueIconFont)
 ```
@@ -64,3 +65,4 @@ Vue.use(VueIconFont)
 ```
 
 Simple demo [here](https://github.com/ganl/vue-icon-font/tree/master/demo)
+![image]https://github.com/ganl/mdAssets/blob/master/img/vue-icon-font_20170913-223111%402x.png
