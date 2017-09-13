@@ -6,7 +6,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-iconfont.js'
+    filename: 'vue-iconfont.js',
+    libraryTarget: "umd",
+    library: "vueIconfont",
+    umdNamedDefine: true
   },
   module: {
     rules: [

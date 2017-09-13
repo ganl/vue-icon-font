@@ -1,13 +1,27 @@
 {
   "name": "vue-icon-font",
   "description": "IconFont plugin for Vuejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "ganl <austgl@qq.com>",
-  "private": false,
+  "main": "dist/vue-iconfont.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganl/vue-icon-font.git"
+  },
+  "keywords": [
+    "vue",
+    "icons",
+    "iconfont"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ganl/vue-icon-font/issues"
+  },
+  "homepage": "https://github.com/ganl/vue-icon-font#readme",
   "dependencies": {
     "vue": "^2.3.3"
   },

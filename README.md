@@ -48,6 +48,12 @@ import './iconfont.js';
 ```
 
 ## Usage
+``` js
+import Vue from 'vue'
+import VueIconFont from 'vue-icon-font'
+import '@/assets/iconfont/iconfont.js'
+Vue.use(VueIconFont)
+```
 
 ``` html
 <!-- font-class -->
