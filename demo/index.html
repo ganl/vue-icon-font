@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue-icon-font</title>
+    <link rel="stylesheet" href="./iconfont.css">
+    <script src="https://unpkg.com/vue"></script>
+    <script src="./iconfont.js"></script>
+    <script src="../dist/vue-iconfont.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div style="width: 20px;height: 20px">
+          <icon name="password"></icon>
+      </div>
+      <div style="width: 20px;height: 20px">
+          <icon name="account" type="class"></icon>
+      </div>
+    </div>
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+          greeting: 'Welcome to your Vue.js app!'
+        },
+        methods: {
+          humanizeURL: function (url) {
+            return url
+              .replace(/^https?:\/\//, '')
+              .replace(/\/$/, '')
+          }
+        }
+      })
+    </script>
+  </body>
+</html>
