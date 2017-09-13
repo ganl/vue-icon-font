@@ -2,6 +2,10 @@
 
 > IconFont plugin for Vuejs
 
+## Screenshots
+
+![image](https://github.com/ganl/mdAssets/raw/master/img/vue-icon-font_20170913-223111%402x.png)
+
 ## Installation
 
 ### NPM (Recommended)
@@ -20,9 +24,11 @@ npm install vue-icon-font
 
 ## Iconfont
 
+It’s a Vector Icon Management & Communication Platform made by Alimama MUX, designers could upload vector icons here, and users could download it by several kinds of format.Also, the icons could be translated into Fonts for front-end engineers’ usage.
+
 > Download the icons from iconfont.cn, and `upzip download.zip`. 
 
-### font-class mode
+### font-class 
 > copy iconfont.css into your project
 
 ``` html
@@ -35,7 +41,7 @@ or
 import './iconfont.css';
 ```
 
-### symbol (default,svg)
+### symbol,svg (Default,Recommended)
 > copy iconfont.js into your project
 
 ``` html
@@ -65,5 +71,3 @@ Vue.use(VueIconFont)
 ```
 
 Simple demo [here](https://github.com/ganl/vue-icon-font/tree/master/demo)
-
-![image](https://github.com/ganl/mdAssets/raw/master/img/vue-icon-font_20170913-223111%402x.png)
