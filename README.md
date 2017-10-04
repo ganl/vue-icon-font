@@ -31,7 +31,7 @@ It’s a Vector Icon Management & Communication Platform made by Alimama MUX, de
 > Download the icons from iconfont.cn, and `upzip download.zip`. 
 
 ### font-class 
-> copy iconfont.css into your project
+> copy `iconfont.css` and font files (*.ttf,*.eot,*.svg,*.woff) into your project
 
 ``` html
 # Include the iconfont.css stylsheet into your <head>
@@ -44,7 +44,7 @@ import './iconfont.css';
 ```
 
 ### symbol,svg (Default,Recommended)
-> copy iconfont.js into your project
+> copy `iconfont.js` into your project
 
 ``` html
 # Include the iconfont.css stylsheet into your <head>
@@ -55,11 +55,15 @@ or
 import './iconfont.js';
 ```
 
-## Usage
+## Usage via import
 ``` js
 import Vue from 'vue'
 import VueIconFont from 'vue-icon-font'
+
+/* font-class */
 import '@/assets/iconfont/iconfont.css'
+
+/* symbol,svg */
 import '@/assets/iconfont/iconfont.js'
 Vue.use(VueIconFont)
 ```
