@@ -76,4 +76,4 @@ Vue.use(VueIconFont)
 <icon name="password"></icon>
 ```
 
-Simple demo [here](https://github.com/ganl/vue-icon-font/tree/master/demo)
+Simple demo [here](https://ganl.github.io/vue-icon-font/demo/)
