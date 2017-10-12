@@ -1,8 +1,3 @@
----
-title: Vue + ElementUI 项目中使用第三方图标库：阿里iconfont,封装字体图标组件
-date: 2017-10-12 23:46:34
-tags:
----
 
 比较流行的字体图标库有Font Awesome：The iconic font and CSS toolkit，还有Bootstrap默认带的Glyphicons字体图标（不过数量有限）；Iconfont，阿里退出的矢量图标管理平台，可以自己上传图标到Iconfont平台，用户可以自定义下载多种格式的icon，平台也可将图标转换为字体，便于调整与调用。
 
@@ -22,7 +17,7 @@ tags:
 
 ## 阿里iconfont.cn
 
-注册后，创建项目，上传图标，http://iconfont.cn/manage/index；或者在图标库中找到自己需要的图标添加到项目中来，http://iconfont.cn/collections/index；
+注册后，创建项目，上传图标：[](http://iconfont.cn/manage/index)；或者在图标库中找到自己需要的图标添加到项目中来：[](http://iconfont.cn/collections/index)
 饿了么element官方给的引入第三方图标库指导步骤需要：
 
 1. 修改第三方图标库的前缀（见下方说明）
@@ -43,7 +38,7 @@ tags:
 
 `<el-input icon="my-xxx" />`
 
-http://element.eleme.io/#/zh-CN/component/icon#di-san-fang-tu-biao-ku
+[](http://element.eleme.io/#/zh-CN/component/icon#di-san-fang-tu-biao-ku)
 
 **使用vue-icon-font组件，不需要修改图标库的前缀，直接引入css和js相关资源文件即可**
 
@@ -126,4 +121,4 @@ import '@/assets/iconfont/iconfont.js'
 <icon name="password"></icon>
 ```
 
-简单demo [here](https://ganl.github.io/vue-icon-font/demo/)
+简单demo：[here](https://ganl.github.io/vue-icon-font/demo/)

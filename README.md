@@ -3,9 +3,7 @@
 [![Build Status](https://travis-ci.org/ganl/vue-icon-font.svg?branch=master)](https://travis-ci.org/ganl/vue-icon-font)
 ![Vue 2.x](https://img.shields.io/badge/vue-2.x-green.svg "Vue 2 Compatible")
 
-> A [iconfont](http://iconfont.cn/) plugin for Vuejs 
-
-[中文说明](README-cn.md)
+> A [iconfont](http://iconfont.cn/) plugin for Vuejs [中文说明](README-cn.md)
 
 ## Screenshots
 
