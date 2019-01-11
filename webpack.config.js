@@ -1,5 +1,7 @@
 var path = require('path')
 var webpack = require('webpack')
+const { VueLoaderPlugin } = require('vue-loader')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   entry: './src/index.js',
@@ -11,6 +13,9 @@ module.exports = {
     library: "vueIconfont",
     umdNamedDefine: true
   },
+  plugins: [
+    new VueLoaderPlugin()
+  ],
   module: {
     rules: [
       {
@@ -33,6 +38,13 @@ module.exports = {
         options: {
           name: '[name].[ext]?[hash]'
         }
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'vue-style-loader',
+          'css-loader'
+        ]
       }
     ]
   },
@@ -48,7 +60,23 @@ module.exports = {
   performance: {
     hints: false
   },
-  devtool: '#eval-source-map'
+  devtool: '#eval-source-map',
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        uglifyOptions: {
+          compress: {
+            warnings: false
+            // drop_debugger: true,
+            // drop_console: true,
+            // pure_funcs: ['console.log']
+          }
+        },
+        sourceMap: true,
+        parallel: true
+      }),
+    ],
+  }
 }
 
 if (process.env.NODE_ENV === 'production') {
@@ -58,12 +86,6 @@ if (process.env.NODE_ENV === 'production') {
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: '"production"'
-      }
-    }),
-    new webpack.optimize.UglifyJsPlugin({
-      sourceMap: true,
-      compress: {
-        warnings: false
       }
     }),
     new webpack.LoaderOptionsPlugin({
