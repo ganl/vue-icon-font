@@ -1,5 +1,5 @@
 
-比较流行的字体图标库有Font Awesome：The iconic font and CSS toolkit，还有Bootstrap默认带的Glyphicons字体图标（不过数量有限）；Iconfont，阿里退出的矢量图标管理平台，可以自己上传图标到Iconfont平台，用户可以自定义下载多种格式的icon，平台也可将图标转换为字体，便于调整与调用。
+比较流行的字体图标库有Font Awesome：The iconic font and CSS toolkit，还有Bootstrap默认带的Glyphicons字体图标（不过数量有限）；Iconfont，阿里推出的矢量图标管理平台，可以自己上传图标到Iconfont平台，用户可以自定义下载多种格式的icon，平台也可将图标转换为字体，便于调整与调用。
 
 产品的管理控制台上很多图标Font Awesome中都没有，多为UI设计的图标，选择了iconfont, 使用图标的地方较多，封装了一个简单的icon组件：
 **[vue-icon-font](https://github.com/ganl/vue-icon-font)**: 	a [iconfont](http://iconfont.cn/) plugin for Vuejs 
